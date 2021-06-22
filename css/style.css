@@ -8,7 +8,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .container{
-    width: 1140px;
+    width: 1170px;
     margin: 0 auto;
 }
 .row{
@@ -22,6 +22,21 @@ ul{
     list-style: none;
 }
 
+.section_ttl h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section_ttl p{
+    font-size: 14px;
+    color: #444444;
+    padding: 0 275px;
+    margin-bottom: 0;
+    text-align: center;
+}
 /*navbar start*/
 #navbar{
     width: 100%;
@@ -103,4 +118,62 @@ ul{
     margin: 0 35px;
     padding-bottom: 20px;
 }
+#banner .banner_content span a{
+    background: #6FDA44;
+    border-color: #6FDA44;
+    color: #fff;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#banner .banner_content span a:hover{
+    background: transparent;
+    border-color: #fff;
+}
+#banner .banner_content a{
+    border: 1px solid #fff;
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 34px 4px 0 10px;
+    display: inline-block;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#banner .banner_content a:hover{
+    background: #6FDA44;
+    border-color: transparent;
+}
 /*banner end*/
+
+/*about section start*/
+#about{
+    position: relative;
+    
+}
+#about::before{
+    content: "";
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    transform-origin: 300px;
+    background: #fff;
+    height: 300px;
+    transform-origin: left bottom;
+    transform: skew(-85.8deg);
+    -webkit-transform: skew(-85.8deg);
+    -moz-transform: skew(-85.8deg);
+    -ms-transform: skew(-85.8deg);
+    -o-transform: skew(-85.8deg);
+}
+/*about section end*/
