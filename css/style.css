@@ -72,9 +72,6 @@ ul{
 
 /*banner start*/
 #banner{
-    background-image: url(../img/banner.jpg);
-    background-position: center;
-    background-size: cover;
     height: 100vh;
     position: relative;
     z-index: 1;
@@ -86,6 +83,15 @@ ul{
     content:'';
     background-color: rgba(0, 0, 0, .7);
     z-index: -1;
+}
+#banner .slider_container{
+    position: relative;
+    height: 650px;
+}
+#banner .slider_container .slide_item{
+    height: 650px;
+    background-size: cover !important;
+    background-position: center !important;
 }
 #banner .banner_content{
     position: absolute;
@@ -365,3 +371,13 @@ ul{
     left: 45%;
 }
 /*about section end*/
+
+/*portfolio section start*/
+#portfolio .portfolio_bg{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/*protfolio section end*/
